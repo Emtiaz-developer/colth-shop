@@ -1,0 +1,91 @@
+@media  (max-width: 1024px) {
+    #hero-sec{
+        background-position: right 41% top 0px;
+    }
+  }
+
+@media  (max-width: 820px) {
+    #hero-sec{
+        background-position: right 41% top 0px;
+        padding-left: 20px;
+    }
+    #hero-sec h5 {
+        font-size: 16px;
+    }
+    #hero-sec h2{
+        font-size: 28px;
+    }
+    #hero-sec h1{
+        font-size: 28px;
+    }
+  }
+  @media  (max-width: 540px) {
+    #hero-sec{
+        background-position: right 36% top 0px;
+        padding-left: 20px;
+    }
+  }
+
+  @media  (max-width: 449px) {
+    #shipping-sec {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    #shipping-sec .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+  }
+
+  @media  (max-width: 991px) {
+    #sesonal-sell .seson-box1{
+        width: 100%;
+        
+        padding-left: 50px;
+
+    }
+    #sesonal-sell .container{
+        gap:15px;
+    }
+  }
+
+  @media  (max-width: 767px){
+    #sesonal-sell .container{
+        gap:10px;
+    }
+  }
+  @media  (max-width: 459px){
+    #sesonal-sell .container{
+        justify-content: center;
+    }
+  }
+
+
+  @media  (max-width: 829px){
+    #newsletter{
+        flex-direction: column;
+    }
+    #newsletter .newsinput{
+        flex-direction: column;
+        width: 100%;
+    }
+    #newsletter .newsinput input{
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    #newsletter .newsinput .signup{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #newsletter .newsinput button{
+        border-bottom-left-radius: 8px !important;
+        border-top-left-radius: 8px  !important;
+    }
+  }
